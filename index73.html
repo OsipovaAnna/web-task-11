@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>index 73</title>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("#div1").fadeOut();
+                $("#div2").fadeOut("slow");
+                $("#div3").fadeOut(3000);
+            });
+        });
+    </script>
+</head>
+<body>
+    <p>Демонстрация эффекта FadeOut() с различными параметрами.</p>
+    <button>Нажми меня!</button>
+    <br><br>
+    <div id="div1" style="width: 80px; height: 80px; background-color: red;"></div><br>
+    <div id="div2" style="width: 80px; height: 80px; background-color: green;"></div><br>
+    <div id="div3" style="width: 80px; height: 80px; background-color: blue;"></div><br>
+</body>
+</html>
